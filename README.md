@@ -1,20 +1,43 @@
 # neural-foundations
 
-A collection of neural network architectures implemented from scratch in C++ focusing on pure mathematical logic, linear algebra, and low-level control.
+A collection of neural network architectures implemented from scratch in modern C++.
+
+This project focuses on understanding the mathematical and structural foundations of deep learning by building everything manually, including tensors, layers, training loops, and optimization algorithms.
+
+---
 
 ## 🧠 About
-This repository is a personal study space focused on the foundations of Artificial Intelligence. Each architecture is implemented from the ground up to explore:
-* **Linear Algebra:** Practical application of matrix operations and tensor manipulations.
-* **Calculus:** Hands-on experience with backpropagation and gradient descent.
-* **C++ Implementation:** Exploring the logic and structure required to build neural models at a low level.
 
-## 🚀 Architectures Included
-* **MLP (Multi-Layer Perceptron):** The fundamental feedforward network.
-* **CNN (Convolutional Neural Networks):** Image processing and spatial feature extraction.
-* **RNN (Recurrent Neural Networks):** Sequential data processing and feedback loops.
-* **LSTM (Long Short-Term Memory):** Advanced sequence learning with memory gates.
+This repository is a personal study and engineering project centered on the fundamentals of Artificial Intelligence.
 
-## 🛠️ Tech Stack
-* **Language:** C++
-* **Math:** Matrix Calculus & Linear Algebra
-* **Build System:** CMake
+The goal is to implement neural networks without external ML frameworks, prioritizing:
+
+- clear mathematical reasoning
+- full control over memory and performance
+- low-level implementation details
+- reproducible training logic
+
+All components are written directly in C++ using only standard tools and custom code.
+
+---
+
+## 🚀 Architectures
+
+Implemented progressively from simple to advanced:
+
+- **Perceptron** – single neuron classifier
+- **MLP (Multi-Layer Perceptron)** – fully connected feedforward networks
+- **CNN (Convolutional Neural Networks)** – spatial feature extraction for images
+- **RNN (Recurrent Neural Networks)** – sequential data processing
+- **LSTM / GRU** – gated recurrent models for long-term dependencies
+- **Autoencoders** – representation learning and dimensionality reduction
+- **GAN (Generative Adversarial Networks)** – generative modeling
+
+Future work may include:
+
+- Transformers
+- Attention mechanisms
+- Diffusion models
+- Lightweight LLM experiments
+
+---
